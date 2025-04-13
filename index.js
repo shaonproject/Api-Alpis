@@ -16,3 +16,5 @@ http.createServer(app).listen(PORTHOST, () => {
 Server running on http://localhost:` + PORTHOST)
 console.log(`Hello ${creator}`)
 })
+
+module.exports = app;
